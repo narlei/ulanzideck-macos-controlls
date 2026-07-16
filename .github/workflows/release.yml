@@ -45,6 +45,22 @@ jobs:
             echo "exists=false" >> "$GITHUB_OUTPUT"
           fi
 
+      - uses: actions/setup-node@v4
+        if: steps.check.outputs.exists == 'false'
+        with:
+          node-version: 20
+
+      # The plugin's Node service imports npm packages (e.g. "ws"), so the
+      # published zip must ship node_modules — it is gitignored and absent
+      # from the checkout otherwise.
+      - name: Install production dependencies
+        if: steps.check.outputs.exists == 'false'
+        run: |
+          for dir in *.ulanziPlugin; do
+            [ -f "$dir/package.json" ] || continue
+            (cd "$dir" && npm ci --omit=dev)
+          done
+
       - name: Build plugin zip(s)
         if: steps.check.outputs.exists == 'false'
         run: |
