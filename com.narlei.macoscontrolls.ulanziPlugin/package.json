@@ -1,6 +1,6 @@
 {
   "name": "ulanzideck-macos-controlls",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "macOS power controls (Sleep / Restart / Shutdown) for Ulanzi Deck",
   "type": "module",
   "private": true,

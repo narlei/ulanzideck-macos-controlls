@@ -1,6 +1,6 @@
 {
   "Name": "macOS Controlls",
-  "Version": "1.0.0",
+  "Version": "1.0.1",
   "Author": "Narlei Moreira",
   "Description": "Sleep, Restart, Shutdown, Empty Trash and Lock Screen on your Mac from the Ulanzi Deck, with a countdown and tap-to-cancel safety.",
   "Icon": "icons/plugin.svg",

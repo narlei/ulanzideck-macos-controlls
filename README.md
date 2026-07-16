@@ -22,6 +22,8 @@ Reaching for a menu bar icon or a confirmation dialog to sleep or lock the Mac b
 
 ## Install
 
+### Install via Ulanzi Community Store: https://ulanzicommunitystore.narlei.com/plugins/?plugin=narlei/ulanzideck-macos-controlls
+
 ```bash
 git clone https://github.com/narlei/ulanzideck-macos-controlls
 cd ulanzideck-macos-controlls
