@@ -1,0 +1,39 @@
+{
+  "Name": "macOS Controls",
+  "Description": "Veille, Redémarrage, Extinction, Vider la corbeille et Verrouiller l’écran sur votre Mac depuis l’Ulanzi Deck, avec compte à rebours et annulation d’un simple toucher.",
+  "Actions": [
+    {
+      "Name": "Veille",
+      "Tooltip": "Met le Mac en veille après un compte à rebours (touchez pour annuler)"
+    },
+    {
+      "Name": "Redémarrer",
+      "Tooltip": "Redémarre le Mac après un compte à rebours (touchez pour annuler)"
+    },
+    {
+      "Name": "Éteindre",
+      "Tooltip": "Éteint le Mac après un compte à rebours (touchez pour annuler)"
+    },
+    {
+      "Name": "Vider la corbeille",
+      "Tooltip": "Vide immédiatement la corbeille de macOS (sans compte à rebours)"
+    },
+    {
+      "Name": "Verrouiller l’écran",
+      "Tooltip": "Verrouille immédiatement l’écran (sans compte à rebours)"
+    }
+  ],
+  "Localization": {
+    "durationLabel": "Durée du compte à rebours",
+    "seconds5": "5 secondes",
+    "seconds10": "10 secondes",
+    "seconds30": "30 secondes",
+    "sleepHint": "Touchez une fois pour lancer le compte à rebours. Touchez à nouveau avant la fin pour annuler. À zéro, le Mac se met en veille.",
+    "restartHint": "Touchez une fois pour lancer le compte à rebours. Touchez à nouveau avant la fin pour annuler. À zéro, le Mac redémarre.",
+    "shutdownHint": "Touchez une fois pour lancer le compte à rebours. Touchez à nouveau avant la fin pour annuler. À zéro, le Mac s’éteint.",
+    "trashHint": "Touchez pour vider immédiatement la corbeille, sans confirmation. L’option « avertir avant de vider » du Finder est désactivée pour n’afficher aucune boîte de dialogue.",
+    "lockHint": "Touchez pour verrouiller immédiatement l’écran. La première fois, macOS peut demander l’autorisation d’Accessibilité pour Ulanzi Deck ; sans elle, l’écran est simplement éteint et se verrouille selon le réglage « Exiger le mot de passe » du système.",
+    "cancelLine1": "touchez pour",
+    "cancelLine2": "annuler"
+  }
+}

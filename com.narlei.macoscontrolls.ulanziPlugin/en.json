@@ -1,0 +1,39 @@
+{
+  "Name": "macOS Controls",
+  "Description": "Sleep, Restart, Shutdown, Empty Trash and Lock Screen on your Mac from the Ulanzi Deck, with a countdown and tap-to-cancel safety.",
+  "Actions": [
+    {
+      "Name": "Sleep",
+      "Tooltip": "Put the Mac to sleep after a countdown (tap to cancel)"
+    },
+    {
+      "Name": "Restart",
+      "Tooltip": "Restart the Mac after a countdown (tap to cancel)"
+    },
+    {
+      "Name": "Shutdown",
+      "Tooltip": "Shut down the Mac after a countdown (tap to cancel)"
+    },
+    {
+      "Name": "Empty Trash",
+      "Tooltip": "Empty the macOS Trash instantly (no countdown)"
+    },
+    {
+      "Name": "Lock Screen",
+      "Tooltip": "Lock the screen instantly (no countdown)"
+    }
+  ],
+  "Localization": {
+    "durationLabel": "Countdown duration",
+    "seconds5": "5 seconds",
+    "seconds10": "10 seconds",
+    "seconds30": "30 seconds",
+    "sleepHint": "Tap once to start the countdown. Tap again before it ends to cancel. When it reaches zero, the Mac goes to sleep.",
+    "restartHint": "Tap once to start the countdown. Tap again before it ends to cancel. When it reaches zero, the Mac restarts.",
+    "shutdownHint": "Tap once to start the countdown. Tap again before it ends to cancel. When it reaches zero, the Mac shuts down.",
+    "trashHint": "Tap to empty the Trash immediately, with no confirmation. Finder’s “warn before emptying” option is disabled so no dialog is shown.",
+    "lockHint": "Tap to lock the screen immediately. The first time, macOS may ask for the Accessibility permission for Ulanzi Deck; without it the display is turned off instead and locks according to the system’s “require password” setting.",
+    "cancelLine1": "tap to",
+    "cancelLine2": "cancel"
+  }
+}

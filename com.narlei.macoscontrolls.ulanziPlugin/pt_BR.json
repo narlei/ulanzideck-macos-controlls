@@ -1,0 +1,39 @@
+{
+  "Name": "macOS Controls",
+  "Description": "Repouso, Reiniciar, Desligar, Esvaziar Lixeira e Bloquear Tela no seu Mac direto do Ulanzi Deck, com contagem regressiva e cancelamento por toque.",
+  "Actions": [
+    {
+      "Name": "Repouso",
+      "Tooltip": "Coloca o Mac em repouso após uma contagem (toque para cancelar)"
+    },
+    {
+      "Name": "Reiniciar",
+      "Tooltip": "Reinicia o Mac após uma contagem (toque para cancelar)"
+    },
+    {
+      "Name": "Desligar",
+      "Tooltip": "Desliga o Mac após uma contagem (toque para cancelar)"
+    },
+    {
+      "Name": "Esvaziar Lixeira",
+      "Tooltip": "Esvazia a Lixeira do macOS imediatamente (sem contagem)"
+    },
+    {
+      "Name": "Bloquear Tela",
+      "Tooltip": "Bloqueia a tela imediatamente (sem contagem)"
+    }
+  ],
+  "Localization": {
+    "durationLabel": "Duração da contagem",
+    "seconds5": "5 segundos",
+    "seconds10": "10 segundos",
+    "seconds30": "30 segundos",
+    "sleepHint": "Toque uma vez para iniciar a contagem. Toque de novo antes do fim para cancelar. Ao chegar a zero, o Mac entra em repouso.",
+    "restartHint": "Toque uma vez para iniciar a contagem. Toque de novo antes do fim para cancelar. Ao chegar a zero, o Mac reinicia.",
+    "shutdownHint": "Toque uma vez para iniciar a contagem. Toque de novo antes do fim para cancelar. Ao chegar a zero, o Mac desliga.",
+    "trashHint": "Toque para esvaziar a Lixeira imediatamente, sem confirmação. A opção “avisar antes de esvaziar” do Finder é desativada para não exibir diálogo.",
+    "lockHint": "Toque para bloquear a tela imediatamente. Na primeira vez o macOS pode pedir a permissão de Acessibilidade para o Ulanzi Deck; sem ela, a tela é apenas desligada e bloqueia conforme a opção “Exigir senha” do sistema.",
+    "cancelLine1": "toque para",
+    "cancelLine2": "cancelar"
+  }
+}

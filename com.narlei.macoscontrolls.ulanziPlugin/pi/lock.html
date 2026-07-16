@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,minimal-ui,viewport-fit=cover" />
+  <title>Lock Screen</title>
+  <link rel="stylesheet" href="libs/css/udpi.css">
+  <style>.udpi-item-label { width: 150px; }</style>
+</head>
+<body>
+  <div class="udpi-wrapper hidden">
+    <form id="property-inspector">
+      <div class="udpi-item" style="margin-left:6px; color:#8A93A6; font-size:12px; line-height:1.4;"
+        data-localize="lockHint">
+        Tap to lock the screen immediately. The first time, macOS may ask for the Accessibility permission for Ulanzi Deck; without it the display is turned off instead and locks according to the system’s “require password” setting.
+      </div>
+    </form>
+  </div>
+
+  <script>window.ACTION_UUID = 'com.narlei.macoscontrolls.controls.lock';</script>
+  <script src="libs/js/constants.js"></script>
+  <script src="libs/js/eventEmitter.js"></script>
+  <script src="libs/js/timers.js"></script>
+  <script src="libs/js/utils.js"></script>
+  <script src="libs/js/ulanzideckApi.js"></script>
+  <script src="inspector.js"></script>
+</body>
+</html>

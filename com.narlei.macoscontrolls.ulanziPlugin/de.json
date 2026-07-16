@@ -1,0 +1,39 @@
+{
+  "Name": "macOS Controls",
+  "Description": "Ruhezustand, Neustart, Ausschalten, Papierkorb leeren und Bildschirm sperren auf dem Mac direkt vom Ulanzi Deck, mit Countdown und Abbrechen per Tipp.",
+  "Actions": [
+    {
+      "Name": "Ruhezustand",
+      "Tooltip": "Versetzt den Mac nach einem Countdown in den Ruhezustand (zum Abbrechen tippen)"
+    },
+    {
+      "Name": "Neu starten",
+      "Tooltip": "Startet den Mac nach einem Countdown neu (zum Abbrechen tippen)"
+    },
+    {
+      "Name": "Ausschalten",
+      "Tooltip": "Schaltet den Mac nach einem Countdown aus (zum Abbrechen tippen)"
+    },
+    {
+      "Name": "Papierkorb leeren",
+      "Tooltip": "Leert den macOS-Papierkorb sofort (ohne Countdown)"
+    },
+    {
+      "Name": "Bildschirm sperren",
+      "Tooltip": "Sperrt den Bildschirm sofort (ohne Countdown)"
+    }
+  ],
+  "Localization": {
+    "durationLabel": "Countdown-Dauer",
+    "seconds5": "5 Sekunden",
+    "seconds10": "10 Sekunden",
+    "seconds30": "30 Sekunden",
+    "sleepHint": "Einmal tippen startet den Countdown. Erneutes Tippen vor Ablauf bricht ab. Bei null geht der Mac in den Ruhezustand.",
+    "restartHint": "Einmal tippen startet den Countdown. Erneutes Tippen vor Ablauf bricht ab. Bei null startet der Mac neu.",
+    "shutdownHint": "Einmal tippen startet den Countdown. Erneutes Tippen vor Ablauf bricht ab. Bei null schaltet sich der Mac aus.",
+    "trashHint": "Tippen leert den Papierkorb sofort und ohne Nachfrage. Die Finder-Option „Vor dem Entleeren nachfragen“ wird deaktiviert, damit kein Dialog erscheint.",
+    "lockHint": "Tippen sperrt den Bildschirm sofort. Beim ersten Mal fragt macOS eventuell nach der Bedienungshilfen-Berechtigung für Ulanzi Deck; ohne sie wird stattdessen das Display ausgeschaltet und gemäß der Systemeinstellung „Passwort erforderlich“ gesperrt.",
+    "cancelLine1": "tippen zum",
+    "cancelLine2": "Abbrechen"
+  }
+}

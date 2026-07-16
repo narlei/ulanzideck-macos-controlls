@@ -1,0 +1,13 @@
+{
+  "cover": "resources/cover.png",
+  "screenshots": [
+    "resources/cover.png",
+    "resources/banner1.png",
+    "resources/banner2.png"
+  ],
+  "longDescription": "Control your Mac straight from the Ulanzi Deck: Sleep, Restart, Shutdown, Empty Trash and Lock Screen. Power actions arm a visible countdown on the key (5, 10 or 30 seconds) — tap again to cancel. Lock Screen and Empty Trash fire instantly.",
+  "deviceTypes": [
+    "deck"
+  ],
+  "tags": ["tools", "office"]
+}

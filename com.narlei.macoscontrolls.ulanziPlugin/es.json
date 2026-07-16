@@ -1,0 +1,39 @@
+{
+  "Name": "macOS Controls",
+  "Description": "Reposo, Reiniciar, Apagar, Vaciar Papelera y Bloquear pantalla en tu Mac desde el Ulanzi Deck, con cuenta atrás y cancelación con un toque.",
+  "Actions": [
+    {
+      "Name": "Reposo",
+      "Tooltip": "Pone el Mac en reposo tras una cuenta atrás (toca para cancelar)"
+    },
+    {
+      "Name": "Reiniciar",
+      "Tooltip": "Reinicia el Mac tras una cuenta atrás (toca para cancelar)"
+    },
+    {
+      "Name": "Apagar",
+      "Tooltip": "Apaga el Mac tras una cuenta atrás (toca para cancelar)"
+    },
+    {
+      "Name": "Vaciar Papelera",
+      "Tooltip": "Vacía la Papelera de macOS al instante (sin cuenta atrás)"
+    },
+    {
+      "Name": "Bloquear pantalla",
+      "Tooltip": "Bloquea la pantalla al instante (sin cuenta atrás)"
+    }
+  ],
+  "Localization": {
+    "durationLabel": "Duración de la cuenta atrás",
+    "seconds5": "5 segundos",
+    "seconds10": "10 segundos",
+    "seconds30": "30 segundos",
+    "sleepHint": "Toca una vez para iniciar la cuenta atrás. Toca de nuevo antes de que termine para cancelar. Al llegar a cero, el Mac entra en reposo.",
+    "restartHint": "Toca una vez para iniciar la cuenta atrás. Toca de nuevo antes de que termine para cancelar. Al llegar a cero, el Mac se reinicia.",
+    "shutdownHint": "Toca una vez para iniciar la cuenta atrás. Toca de nuevo antes de que termine para cancelar. Al llegar a cero, el Mac se apaga.",
+    "trashHint": "Toca para vaciar la Papelera de inmediato, sin confirmación. La opción “avisar antes de vaciar” del Finder se desactiva para no mostrar diálogos.",
+    "lockHint": "Toca para bloquear la pantalla de inmediato. La primera vez, macOS puede pedir el permiso de Accesibilidad para Ulanzi Deck; sin él, la pantalla solo se apaga y se bloquea según el ajuste “Solicitar contraseña” del sistema.",
+    "cancelLine1": "toca para",
+    "cancelLine2": "cancelar"
+  }
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,minimal-ui,viewport-fit=cover" />
+  <title>Restart</title>
+  <link rel="stylesheet" href="libs/css/udpi.css">
+  <style>.udpi-item-label { width: 150px; }</style>
+</head>
+<body>
+  <div class="udpi-wrapper hidden">
+    <form id="property-inspector">
+      <div class="udpi-item">
+        <div class="udpi-item-label" data-localize="durationLabel">Countdown duration</div>
+        <select class="udpi-item-value select" id="duration" name="duration">
+          <option value="5" selected data-localize="seconds5">5 seconds</option>
+          <option value="10" data-localize="seconds10">10 seconds</option>
+          <option value="30" data-localize="seconds30">30 seconds</option>
+        </select>
+      </div>
+      <div class="udpi-item" style="margin-left:6px; color:#8A93A6; font-size:12px; line-height:1.4;"
+        data-localize="restartHint">
+        Tap once to start the countdown. Tap again before it ends to cancel. When it reaches zero, the Mac restarts.
+      </div>
+    </form>
+  </div>
+
+  <script>window.ACTION_UUID = 'com.narlei.macoscontrolls.controls.restart';</script>
+  <script src="libs/js/constants.js"></script>
+  <script src="libs/js/eventEmitter.js"></script>
+  <script src="libs/js/timers.js"></script>
+  <script src="libs/js/utils.js"></script>
+  <script src="libs/js/ulanzideckApi.js"></script>
+  <script src="inspector.js"></script>
+</body>
+</html>

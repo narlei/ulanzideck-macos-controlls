@@ -1,0 +1,39 @@
+{
+  "Name": "macOS Controls",
+  "Description": "透過 Ulanzi Deck 控制 Mac：睡眠、重新啟動、關機、清空垃圾桶和鎖定螢幕，附倒數計時與點按取消保護。",
+  "Actions": [
+    {
+      "Name": "睡眠",
+      "Tooltip": "倒數結束後讓 Mac 進入睡眠（點按可取消）"
+    },
+    {
+      "Name": "重新啟動",
+      "Tooltip": "倒數結束後重新啟動 Mac（點按可取消）"
+    },
+    {
+      "Name": "關機",
+      "Tooltip": "倒數結束後關閉 Mac（點按可取消）"
+    },
+    {
+      "Name": "清空垃圾桶",
+      "Tooltip": "立即清空 macOS 垃圾桶（無倒數）"
+    },
+    {
+      "Name": "鎖定螢幕",
+      "Tooltip": "立即鎖定螢幕（無倒數）"
+    }
+  ],
+  "Localization": {
+    "durationLabel": "倒數時長",
+    "seconds5": "5 秒",
+    "seconds10": "10 秒",
+    "seconds30": "30 秒",
+    "sleepHint": "點按一次開始倒數，結束前再點按一次即可取消。倒數歸零後 Mac 進入睡眠。",
+    "restartHint": "點按一次開始倒數，結束前再點按一次即可取消。倒數歸零後 Mac 重新啟動。",
+    "shutdownHint": "點按一次開始倒數，結束前再點按一次即可取消。倒數歸零後 Mac 關機。",
+    "trashHint": "點按即立即清空垃圾桶，毋須確認。為免彈出對話框，會停用 Finder 的「清空前提出警告」選項。",
+    "lockHint": "點按即立即鎖定螢幕。首次使用時 macOS 可能會為 Ulanzi Deck 要求輔助使用權限；若未授權，則改為關閉顯示器，並按系統「需要密碼」設定鎖定。",
+    "cancelLine1": "點按",
+    "cancelLine2": "取消"
+  }
+}

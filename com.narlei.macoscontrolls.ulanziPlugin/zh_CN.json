@@ -1,0 +1,39 @@
+{
+  "Name": "macOS Controls",
+  "Description": "通过 Ulanzi Deck 控制 Mac：睡眠、重新启动、关机、清倒废纸篓和锁定屏幕，带倒计时和点按取消保护。",
+  "Actions": [
+    {
+      "Name": "睡眠",
+      "Tooltip": "倒计时结束后让 Mac 进入睡眠（点按可取消）"
+    },
+    {
+      "Name": "重新启动",
+      "Tooltip": "倒计时结束后重新启动 Mac（点按可取消）"
+    },
+    {
+      "Name": "关机",
+      "Tooltip": "倒计时结束后关闭 Mac（点按可取消）"
+    },
+    {
+      "Name": "清倒废纸篓",
+      "Tooltip": "立即清倒 macOS 废纸篓（无倒计时）"
+    },
+    {
+      "Name": "锁定屏幕",
+      "Tooltip": "立即锁定屏幕（无倒计时）"
+    }
+  ],
+  "Localization": {
+    "durationLabel": "倒计时时长",
+    "seconds5": "5 秒",
+    "seconds10": "10 秒",
+    "seconds30": "30 秒",
+    "sleepHint": "点按一次开始倒计时，结束前再次点按可取消。倒计时归零后 Mac 进入睡眠。",
+    "restartHint": "点按一次开始倒计时，结束前再次点按可取消。倒计时归零后 Mac 重新启动。",
+    "shutdownHint": "点按一次开始倒计时，结束前再次点按可取消。倒计时归零后 Mac 关机。",
+    "trashHint": "点按立即清倒废纸篓，无需确认。为避免弹出对话框，会关闭访达的“清倒前显示警告”选项。",
+    "lockHint": "点按立即锁定屏幕。首次使用时 macOS 可能会为 Ulanzi Deck 请求辅助功能权限；若未授权，则改为关闭显示器，并按系统“要求输入密码”设置锁定。",
+    "cancelLine1": "点按",
+    "cancelLine2": "取消"
+  }
+}

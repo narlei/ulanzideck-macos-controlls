@@ -1,0 +1,81 @@
+{
+  "Name": "macOS Controlls",
+  "Version": "1.0.0",
+  "Author": "Narlei Moreira",
+  "Description": "Sleep, Restart, Shutdown, Empty Trash and Lock Screen on your Mac from the Ulanzi Deck, with a countdown and tap-to-cancel safety.",
+  "Icon": "icons/plugin.svg",
+  "Category": "macOS Controlls",
+  "CategoryIcon": "icons/plugin.svg",
+  "URL": "https://github.com/narlei/ulanzideck-macos-controlls",
+  "CodePath": "app.js",
+  "Type": "JavaScript",
+  "PrivateAPI": true,
+  "UUID": "com.narlei.macoscontrolls.controls",
+  "SupportedInMultiActions": false,
+  "Actions": [
+    {
+      "Name": "Sleep",
+      "UUID": "com.narlei.macoscontrolls.controls.sleep",
+      "Icon": "icons/sleep.svg",
+      "Controllers": ["Keypad"],
+      "PropertyInspectorPath": "pi/sleep.html",
+      "States": [{ "Image": "icons/sleep.svg" }],
+      "Tooltip": "Put the Mac to sleep after a countdown (tap to cancel)",
+      "SupportedInMultiActions": false,
+      "DisableAutomaticStates": true
+    },
+    {
+      "Name": "Restart",
+      "UUID": "com.narlei.macoscontrolls.controls.restart",
+      "Icon": "icons/restart.svg",
+      "Controllers": ["Keypad"],
+      "PropertyInspectorPath": "pi/restart.html",
+      "States": [{ "Image": "icons/restart.svg" }],
+      "Tooltip": "Restart the Mac after a countdown (tap to cancel)",
+      "SupportedInMultiActions": false,
+      "DisableAutomaticStates": true
+    },
+    {
+      "Name": "Shutdown",
+      "UUID": "com.narlei.macoscontrolls.controls.shutdown",
+      "Icon": "icons/shutdown.svg",
+      "Controllers": ["Keypad"],
+      "PropertyInspectorPath": "pi/shutdown.html",
+      "States": [{ "Image": "icons/shutdown.svg" }],
+      "Tooltip": "Shut down the Mac after a countdown (tap to cancel)",
+      "SupportedInMultiActions": false,
+      "DisableAutomaticStates": true
+    },
+    {
+      "Name": "Empty Trash",
+      "UUID": "com.narlei.macoscontrolls.controls.trash",
+      "Icon": "icons/trash.svg",
+      "Controllers": ["Keypad"],
+      "PropertyInspectorPath": "pi/trash.html",
+      "States": [{ "Image": "icons/trash.svg" }],
+      "Tooltip": "Empty the macOS Trash instantly (no countdown)",
+      "SupportedInMultiActions": false,
+      "DisableAutomaticStates": true
+    },
+    {
+      "Name": "Lock Screen",
+      "UUID": "com.narlei.macoscontrolls.controls.lock",
+      "Icon": "icons/lock.svg",
+      "Controllers": ["Keypad"],
+      "PropertyInspectorPath": "pi/lock.html",
+      "States": [{ "Image": "icons/lock.svg" }],
+      "Tooltip": "Lock the screen instantly (no countdown)",
+      "SupportedInMultiActions": false,
+      "DisableAutomaticStates": true
+    }
+  ],
+  "OS": [
+    {
+      "Platform": "mac",
+      "MinVersion": "10.15"
+    }
+  ],
+  "Software": {
+    "MinVersion": "1.0.0"
+  }
+}

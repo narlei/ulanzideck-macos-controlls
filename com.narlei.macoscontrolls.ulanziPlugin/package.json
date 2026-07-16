@@ -1,0 +1,12 @@
+{
+  "name": "ulanzideck-macos-controlls",
+  "version": "1.0.0",
+  "description": "macOS power controls (Sleep / Restart / Shutdown) for Ulanzi Deck",
+  "type": "module",
+  "private": true,
+  "author": "Narlei Moreira",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
